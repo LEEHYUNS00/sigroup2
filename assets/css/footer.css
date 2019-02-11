@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+footer {
+	background-color: #192028;
+	color: #666;
+	padding: 1em 0.5em;
+	clear: both;
+}
+
+.footer-brand-text {
+	display: inline-block;
+	padding-bottom: 20px;
+	font-size: 35px;
+	color: #fff;
+}
+
+#footer-row-table {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 25px;
+	padding-top: 35px;
+}
+
+.footer-section {
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+.footer-section li {
+	float: none !important;
+	margin-left: 0 !important;
+	padding: 0.15rem 0 !important;
+}
+
+footer .nav {
+	display: block !important;
+}
+
+footer h5 {
+	font-size: 1.1rem;
+	color: white;
+	font-weight: 600;
+	margin-bottom: 4px;
+	font-weight: 400;
+}
+
+footer .nav-link, #view-more-link {
+	color: rgba(255, 255, 255, .8) !important;
+	font-size: 1rem;
+	font-weight: 100;
+	float: none;
+	padding: 1px 0;
+	display: block
+}
+
+footer a.nav-link:hover, #view-more-link:hover {
+	color: #0088ce !important;
+}
+
+#copyright {
+	float: left;
+	padding-right: 60px;
+	border-right: 1px solid #30373e;
+}
+
+#copyright a {
+	color: white !important;
+	font-size: 0.875rem;
+	line-height: 1;
+	font-weight: 400;
+	display: inline-block;
+	font-weight: 100;
+}
+
+#copyright em {
+	color: white !important;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 300;
+}
+
+#desktop-footer {
+	display: none;
+}
+
+#footer-logo-mobile {
+	width: 164px;
+	margin-bottom: 30px;
+}
+
+.footer-spacer {
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 0.75rem;
+	color: white;
+}
+
+/*MOBILE FOOTER*/
+#mobile-copyright {
+	padding: 1rem 0;
+	text-align: center;
+}
+
+#mobile-copyright a {
+	color: white !important;
+	font-size: 0.75rem;
+	font-weight: 100;
+}
+
+#mobile-copyright em {
+	color: white !important;
+	font-size: 0.75rem;
+	font-weight: 100;
+}
+
+.mobile-separator {
+	padding-left: 5px;
+	padding-right: 5px;
+	color: white;
+}
+
+@media ( min-width : 576px) {
+	#footer-logo-mobile {
+		width: 200px;
+	}
+	#mobile-nav-socal .mobile-nav-socal-item {
+		width: 25px;
+		margin: 0 14px;
+	}
+	#mobile-nav-socal {
+		padding-bottom: 20px;
+	}
+}
+
+@media ( min-width : 768px) {
+}
+
+@media ( min-width : 992px) {
+	#mobile-footer {
+		display: none;
+	}
+	#desktop-footer {
+		display: block;
+	}
+	#footer-logo-desktop {
+		width: 250px;
+		margin-bottom: 30px;
+	}
+}
+
+@media ( min-width : 1200px) {
+	#footer-row-table {
+		display: flex;
+		justify-content: space-around;
+		padding-bottom: 25px;
+		padding-top: 35px;
+	}
+}
