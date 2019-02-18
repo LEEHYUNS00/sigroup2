@@ -12,6 +12,12 @@ section.page-section h2 {
 	margin-bottom: .5rem;
 }
 
+@media ( min-width : 992px) {
+	section#overview {
+		height: 100vh;
+	}
+}
+
 section#overview h2 {
 	font-size: 1.85rem !important;
 }

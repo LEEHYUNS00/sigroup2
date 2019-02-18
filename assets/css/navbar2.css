@@ -14,10 +14,11 @@
 }
 
 #mainNav2 .navbar-nav .nav-item .nav-link {
+	color: #6c757d;
 	font-weight: 700;
 }
 
-#mainNav2 .navbar-nav .nav-item .nav-link span:hover, #mainNav .navbar-nav .nav-item .nav-link:active span {
+#mainNav2 .navbar-nav .nav-item .nav-link span:hover, #mainNav2 .navbar-nav .nav-item .nav-link:active span {
 	border-bottom: 2px solid #6392a5;
 	padding-bottom: 4px;
 }
@@ -34,11 +35,17 @@
 		background-color: transparent;
 	}
 	#mainNav2 .navbar-brand {
-		color: #000;
+		color: rgba(255, 255, 255, 0.7);
+	}
+	#mainNav2 .navbar-brand:hover {
+		color: #fff;
 	}
 	#mainNav2 .navbar-nav .nav-item .nav-link {
-		color: rgba(0, 0, 0);
+		color: rgba(255, 255, 255, 0.7);
 		padding: 0 1rem;
+	}
+	#mainNav2 .navbar-nav .nav-item .nav-link:hover {
+		color: #fff;
 	}
 	#mainNav2 .navbar-nav .nav-item:last-child .nav-link {
 		padding-right: 0;
@@ -51,10 +58,10 @@
 	#mainNav2.navbar-scrolled .navbar-brand {
 		color: #212529;
 	}
-	#mainNav2.navbar-scrolled .navbar-brand:hover {
-		border-bottom: 2px solid #6392a5;
-		padding-bottom: 4px;
-	}
+/* 	#mainNav2.navbar-scrolled .navbar-brand:hover { */
+/* 		border-bottom: 2px solid #6392a5; */
+/* 		padding-bottom: 4px; */
+/* 	} */
 	#mainNav2.navbar-scrolled .navbar-nav .nav-item .nav-link {
 		color: #212529;
 	}
